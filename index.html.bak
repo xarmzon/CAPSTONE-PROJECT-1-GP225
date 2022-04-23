@@ -33,7 +33,7 @@
       </div>
       <section>
         <div class="image">
-          <img src="assets/illustration-intro.png" alt="" />
+          <img src="/assets/illustration-intro.png" alt="" />
         </div>
         <div class="contents">
           <h1>All your files in one secure location, accessible anywhere.</h1>
