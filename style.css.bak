@@ -383,7 +383,9 @@ footer .contents .items .contact.icons > * {
 		align-items: center;
 	}
 	input[type="email"]{
+		width: 70%;
 		margin-right: 1.6rem;
+		  margin-bottom: 0;
 	}
   footer .contents {
     max-width: 85%;
