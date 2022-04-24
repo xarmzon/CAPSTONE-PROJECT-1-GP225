@@ -367,17 +367,6 @@ footer .contents .items .contact.icons > * {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
-    background-size: 140% 65%;
-  }
-  footer .contents .items > * {
-    flex-basis: 10rem;
-  }
-  footer .contents .items > *:first-child {
-    flex-basis: 30rem;
-  }
-}
-@media screen and (min-width: 1024px) {
 	form {
 		display: flex;
 		align-items: center;
@@ -385,7 +374,8 @@ footer .contents .items .contact.icons > * {
 	input[type="email"]{
 		width: 70%;
 		margin-right: 1.6rem;
-		  margin-bottom: 0;
+		margin-bottom: 0;
+		flex-shrink: 0;
 	}
   footer .contents {
     max-width: 85%;

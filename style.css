@@ -367,17 +367,9 @@ footer .contents .items .contact.icons > * {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
-    background-size: 140% 65%;
-  }
-  footer .contents .items > * {
-    flex-basis: 10rem;
-  }
-  footer .contents .items > *:first-child {
-    flex-basis: 30rem;
-  }
-}
-@media screen and (min-width: 1024px) {
+	section.access{
+		max-width: 60%;
+	}
 	form {
 		display: flex;
 		align-items: center;
